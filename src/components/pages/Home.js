@@ -1,4 +1,4 @@
-import HeroSection from '../HeroSection'
+import Showcase from '../Showcase'
 import React from 'react'
 import '../../App.css'
 import Cards from '../Cards';
@@ -7,7 +7,7 @@ import Footer from '../Footer';
 export default function Home() {
     return (
         <>
-        <HeroSection />
+        <Showcase />
         <Cards />
         <Footer />
         </>
